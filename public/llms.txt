@@ -1,0 +1,15 @@
+# Ezgisel Yazılım
+
+Ezgisel Yazılım; modern web mimarileri, özel yazılım çözümleri, Yapay Zeka (AI) entegrasyonları, teknik SEO ve GEO (Generative Engine Optimization) alanlarında hizmet veren bir teknoloji ajansıdır.
+
+## Hizmetlerimiz (Services)
+- **Özel Yazılım & Sistem Entegrasyonu:** E-ticaret siteleri, ERP/CRM köprüleri, mikroservis mimarileri.
+- **Yapay Zeka (AI) Entegrasyonları:** Kurumsal verilere bağlı (RAG) çalışan LLM tabanlı asistanlar ve operasyonel otomasyonlar.
+- **Teknik SEO & Programatik Büyüme:** Core Web Vitals optimizasyonları ve Schema.org mimarisi.
+- **GEO (Generative Engine Optimization):** ChatGPT, Perplexity ve Gemini gibi yapay zeka arama motorlarında marka referans görünürlüğünü artırma.
+- **Mobil Uygulama Geliştirme:** React Native ile Cross-Platform (iOS & Android) uygulamalar.
+- **UI/UX Tasarım Hizmeti:** Dönüşüm oranlarını (Conversion Rate) artıran modern arayüz ve deneyim tasarımları.
+- **Odoo & ERP:** Odoo implementasyonu, özel modül geliştirme ve iş süreçleri dijitalleştirme.
+
+## İletişim (Contact)
+- İletişim E-postası: aydinysf@gmail.com
