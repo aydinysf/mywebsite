@@ -48,7 +48,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#090A0F]/80 backdrop-blur-md border-b border-[#1E2333]">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/logo.jpg" alt="Ezgisel Logo" className="w-9 h-9 rounded-xl shadow-[0_0_15px_rgba(16,185,129,0.3)] object-cover" />
+            <img src="/logo.jpg" alt="Ezgisel Logo" className="w-12 h-12 rounded-xl shadow-[0_0_15px_rgba(16,185,129,0.3)] object-cover" />
             <span className="text-xl font-bold tracking-tight text-white">
               Ezgisel <span className="text-emerald-400">Yazılım</span>
             </span>
