@@ -42,15 +42,15 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-[#090A0F] text-slate-300 font-sans antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+    <div className="min-h-screen bg-[#090A0F] text-slate-300 font-sans antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
       
       {/* 1. Header (Sticky / Glassmorphism) */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#090A0F]/80 backdrop-blur-md border-b border-[#1E2333]">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/logo.jpg" alt="Ezgisel Logo" className="w-9 h-9 rounded-xl shadow-[0_0_15px_rgba(236,72,153,0.3)] object-cover" />
+            <img src="/logo.jpg" alt="Ezgisel Logo" className="w-9 h-9 rounded-xl shadow-[0_0_15px_rgba(16,185,129,0.3)] object-cover" />
             <span className="text-xl font-bold tracking-tight text-white">
-              EZGİSEL<span className="text-indigo-400">.TECH</span>
+              Ezgisel <span className="text-emerald-400">Yazılım</span>
             </span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-400">
@@ -59,7 +59,7 @@ export default function Home() {
             <a href="#products" className="hover:text-white transition-colors">Ürünlerimiz</a>
             <a href="#contact" className="hover:text-white transition-colors">İletişim</a>
           </nav>
-          <a href="#contact" className="hidden md:flex items-center justify-center px-5 py-2.5 bg-[#12151F] hover:bg-[#1E2333] border border-[#1E2333] hover:border-indigo-500/50 text-white text-sm font-medium rounded-lg transition-all">
+          <a href="#contact" className="hidden md:flex items-center justify-center px-5 py-2.5 bg-[#12151F] hover:bg-[#1E2333] border border-[#1E2333] hover:border-emerald-500/50 text-white text-sm font-medium rounded-lg transition-all">
             Toplantı Planla
           </a>
         </div>
@@ -68,22 +68,22 @@ export default function Home() {
       {/* 2. Hero Bölümü */}
       <section className="pt-40 pb-20 px-6 relative overflow-hidden">
         {/* Glow Effects */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-emerald-600/10 rounded-full blur-[120px] pointer-events-none"></div>
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-600/10 rounded-full blur-[100px] pointer-events-none"></div>
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#12151F] border border-[#1E2333] text-xs font-medium text-indigo-400 mb-8">
-            <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#12151F] border border-[#1E2333] text-xs font-medium text-emerald-400 mb-8">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
             Odoo ERP & Kurumsal Teknoloji Mimarisi
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-white tracking-tight mb-8 leading-[1.1]">
-            İşletmenizi Odoo ERP, Saha Mobil Çözümleri ve <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Yapay Zeka</span> ile Büyütün.
+            İşletmenizi Odoo ERP, Saha Mobil Çözümleri ve <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Yapay Zeka</span> ile Büyütün.
           </h1>
           <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl mx-auto leading-relaxed">
             Tüm muhasebe, stok, satış ve saha operasyonlarınızı Odoo ERP omurgasında birleştiriyor; özel mobil uygulamalar, AI otomasyonları ve GEO (Yapay Zeka Görünürlüğü) ile ölçeklendiriyoruz.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#contact" className="w-full sm:w-auto px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-bold rounded-lg transition-colors flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(99,102,241,0.3)]">
+            <a href="#contact" className="w-full sm:w-auto px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-bold rounded-lg transition-colors flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(99,102,241,0.3)]">
               Ücretsiz Keşif & Analiz Planla <ArrowRight className="w-4 h-4" />
             </a>
             <a href="#services" className="w-full sm:w-auto px-8 py-4 bg-[#12151F] hover:bg-[#1E2333] border border-[#1E2333] text-white text-sm font-bold rounded-lg transition-colors flex items-center justify-center gap-2">
@@ -125,8 +125,8 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* Service 1 */}
-            <div className="group bg-[#12151F] border border-[#1E2333] hover:border-indigo-500/50 p-8 rounded-2xl transition-all hover:bg-[#151925]">
-              <div className="w-12 h-12 rounded-lg bg-indigo-500/10 flex items-center justify-center mb-6 text-indigo-400 group-hover:scale-110 transition-transform">
+            <div className="group bg-[#12151F] border border-[#1E2333] hover:border-emerald-500/50 p-8 rounded-2xl transition-all hover:bg-[#151925]">
+              <div className="w-12 h-12 rounded-lg bg-emerald-500/10 flex items-center justify-center mb-6 text-emerald-400 group-hover:scale-110 transition-transform">
                 <Database className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-white mb-3">Odoo ERP & CRM</h3>
@@ -174,7 +174,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="bg-[#12151F] border border-[#1E2333] rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <HardDrive className="w-5 h-5 text-indigo-400" />
+                <HardDrive className="w-5 h-5 text-emerald-400" />
                 <h3 className="font-bold text-white">Depo Entegrasyonu</h3>
               </div>
               <div className="space-y-4">
@@ -187,7 +187,7 @@ export default function Home() {
                   <p className="text-sm text-slate-300">Odoo WMS modülü ile entegre, özel React Native el terminali uygulaması geliştirildi.</p>
                 </div>
                 <div className="pt-4 border-t border-[#1E2333]">
-                  <span className="text-xs font-mono text-indigo-400 block mb-1">RESULT</span>
+                  <span className="text-xs font-mono text-emerald-400 block mb-1">RESULT</span>
                   <p className="text-sm text-white font-medium">Hata payı %0.1'e düştü, paketleme hızı 4 kat arttı.</p>
                 </div>
               </div>
@@ -248,22 +248,22 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Product 1 */}
-            <div className="group relative bg-[#12151F] border border-[#1E2333] hover:border-indigo-500/50 rounded-3xl overflow-hidden transition-all">
-              <div className="absolute top-0 left-0 w-full h-1 bg-indigo-500"></div>
+            <div className="group relative bg-[#12151F] border border-[#1E2333] hover:border-emerald-500/50 rounded-3xl overflow-hidden transition-all">
+              <div className="absolute top-0 left-0 w-full h-1 bg-emerald-500"></div>
               <div className="p-10">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-14 h-14 rounded-2xl bg-indigo-500/10 flex items-center justify-center border border-indigo-500/20">
-                    <Shield className="w-7 h-7 text-indigo-400" />
+                  <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center border border-emerald-500/20">
+                    <Shield className="w-7 h-7 text-emerald-400" />
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white">Dijital Arşiv Sistemi</h3>
-                    <span className="text-xs font-mono text-indigo-400">Kurumsal SaaS</span>
+                    <span className="text-xs font-mono text-emerald-400">Kurumsal SaaS</span>
                   </div>
                 </div>
                 <p className="text-slate-400 leading-relaxed mb-8">
                   KVKK uyumlu, akıllı arama ve OCR (Karakter Tanıma) destekli yeni nesil kurumsal doküman yönetim sistemi. Dosyalarınızı güvenle bulutta saklayın ve saniyeler içinde aradığınızı bulun.
                 </p>
-                <div className="flex items-center gap-2 text-sm font-medium text-white group-hover:text-indigo-400 transition-colors cursor-pointer">
+                <div className="flex items-center gap-2 text-sm font-medium text-white group-hover:text-emerald-400 transition-colors cursor-pointer">
                   İncele <ChevronRight className="w-4 h-4" />
                 </div>
               </div>
@@ -321,7 +321,7 @@ export default function Home() {
                       name="name"
                       value={formData.name}
                       onChange={handleInputChange}
-                      className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all"
+                      className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                       placeholder="John Doe"
                     />
                   </div>
@@ -333,7 +333,7 @@ export default function Home() {
                       name="email"
                       value={formData.email}
                       onChange={handleInputChange}
-                      className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all"
+                      className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -345,7 +345,7 @@ export default function Home() {
                     name="interest"
                     value={formData.interest}
                     onChange={handleInputChange}
-                    className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all"
+                    className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
                   >
                     <option value="Odoo ERP">Odoo ERP Entegrasyonu</option>
                     <option value="Mobil Uygulama">Mobil & Saha Uygulamaları</option>
@@ -362,7 +362,7 @@ export default function Home() {
                     value={formData.message}
                     onChange={handleInputChange}
                     rows={4}
-                    className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all resize-none"
+                    className="w-full bg-[#090A0F] border border-[#1E2333] rounded-lg px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all resize-none"
                     placeholder="Mevcut sisteminiz ve çözmek istediğiniz problem hakkında kısaca bilgi verin..."
                   ></textarea>
                 </div>
@@ -370,7 +370,7 @@ export default function Home() {
                 <button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-4 rounded-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-4 rounded-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? (
                     <span className="flex items-center gap-2">
@@ -394,9 +394,9 @@ export default function Home() {
             © {new Date().getFullYear()} Ezgisel Yazılım. Enterprise Architecture Solutions.
           </div>
           <div className="flex gap-6 font-mono text-xs text-slate-600">
-            <a href="/llms.txt" className="hover:text-indigo-400 transition-colors">/llms.txt</a>
-            <a href="/sitemap.xml" className="hover:text-indigo-400 transition-colors">/sitemap.xml</a>
-            <a href="/robots.txt" className="hover:text-indigo-400 transition-colors">/robots.txt</a>
+            <a href="/llms.txt" className="hover:text-emerald-400 transition-colors">/llms.txt</a>
+            <a href="/sitemap.xml" className="hover:text-emerald-400 transition-colors">/sitemap.xml</a>
+            <a href="/robots.txt" className="hover:text-emerald-400 transition-colors">/robots.txt</a>
           </div>
         </div>
       </footer>
